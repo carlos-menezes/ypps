@@ -1,0 +1,109 @@
+.home {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  animation: fade-in 3s;
+}
+
+.home form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.home form input {
+  width: 100%;
+  height: 35px;
+  font-size: 14px;
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.home form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 250px;
+  font-size: 14px;
+  font-family: 'Incosolata', monospace;
+  margin-bottom: 10px;
+  border: 0;
+  background-color: transparent;
+  border: 1px solid #b6b6b6;
+  padding: 5px;
+}
+
+.home form *:not(textarea):focus {
+  outline: none;
+  border-bottom: 1px solid #2b2b2b;
+}
+
+.home form textarea:focus {
+  outline: none;
+  border: 1px solid #2b2b2b;
+}
+
+.home form select {
+  font-family: 'Karla', sans-serif;
+  height: 35px;
+  width: 54%;
+}
+
+.home form button {
+  width: 40%;
+  background-color: transparent;
+  color: #2b2b2b;
+  border: 2px solid #2b2b2b;
+  font-family: 'Karla', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.home form button:disabled {
+  opacity: 0.3;
+}
+
+.home form button:disabled:hover {
+  border: 2px solid #2b2b2b;
+  background-color: transparent;
+  color: #2b2b2b;
+}
+
+.home form input, .home form select, .home form select option {
+  box-sizing: border-box;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #b6b6b6;
+  padding: 5px;
+}
+
+.home form button:hover {
+  border: 2px solid transparent;
+  background-color: #2b2b2b;
+  color: white;
+  cursor: pointer;
+}
+
+.home .title {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.home .title h1 {
+  font-size: 46px;
+  font-family: 'Incosolata', monospace;
+}
+
+.home .title h3 {
+  font-size: 14px;  
+  font-family: 'Karla', sans-serif;
+}
+
+@media only screen and (min-width: 992px) {
+  .home{
+    max-width: 50vw;
+  }
+}

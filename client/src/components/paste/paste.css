@@ -1,0 +1,27 @@
+.paste {
+  width: 90vw;
+  animation: fade-in 3s;
+  margin: 0 auto 0 auto;
+}
+
+.paste h1 {
+  font-family: 'Karla', monospace;
+  margin-bottom: 5px;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.paste p {
+  margin-bottom: 10px;
+}
+
+.paste pre {
+  border: 1px solid #b8b8b8;
+  word-break: break-all;
+  height: 50vh;
+}
+
+.paste hr {
+  margin: 25px auto 15px auto;
+  width: 50vw;
+}

@@ -1,0 +1,30 @@
+.about {
+  animation: fade-in 3s;
+}
+
+.about .info {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  max-width: 90vw;
+  text-align: justify;
+}
+
+.about h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.about .info p {
+  margin-bottom: 10px;
+  line-height: 14px;
+}
+
+.about .info ul {
+  margin: 0 0 10px 25px;
+}
+
+@media only screen and (min-width: 992px) {
+  .about .info {
+    max-width: 50vw;
+  }
+}
